@@ -17,3 +17,51 @@
 .custom-shape-divider-bottom-1685528473 .shape-fill {
     fill: #FFFFFF;
 }
+
+
+.form_container{
+    width: 400px;
+    border-radius: 6px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.form_container label {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.form_container  input, 
+.form_container  textarea{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+}
+.form_container .form-control{
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding:.5rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    margin: 2rem auto 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all ease-in-out .1s;
+    display: block;
+}   
+
+.btn:hover{
+    background: green;
+}
