@@ -1,0 +1,59 @@
+.container{
+    padding: 5rem 2rem;
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+    min-width: 100vw;
+    background: linear-gradient(to right, rgb(40, 243, 243), rgb(160, 248, 160));;
+}
+
+.innerContainer{
+    width: 80%;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding:.5rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all ease-in-out .1s;
+}
+
+
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+.innerContainer p{
+    color:rgba(0,0,0,.7);
+    font-size: 15px;    
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+@media (max-width:992px){
+    
+}
+
+
+@media (max-width: 576px){
+    
+    .innerContainer{
+        width: 100%;
+    }
+}
+
+/* max width dile opore boro taa rakht hbe  */
